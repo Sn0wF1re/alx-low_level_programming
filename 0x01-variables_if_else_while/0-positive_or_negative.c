@@ -6,8 +6,6 @@
 /* betty style doc for function main goes there */
 /**
   *main - Print a number as positive, negative or zero
-  *@n: Number to be determined as above
-  *
   *Return: 0
   */
 int main(void)
