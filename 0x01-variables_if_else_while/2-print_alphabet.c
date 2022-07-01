@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
   *main - print alphabet from a to z
+  *Return: 0
   */
 int main()
 {
@@ -10,7 +11,7 @@ int main()
 	for (cha = 'a'; cha <= 'z'; cha++)
 	{
 		putchar(cha);
-		putchar('\n');
 	}
+	putchar('\n');
 	return (0);
 }
