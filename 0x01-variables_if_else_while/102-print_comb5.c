@@ -9,7 +9,7 @@ int main(void)
 
 	for (x1 = 0; x1 < 99; x1++)
 	{
-		for (x2 = 0; x2 <= 99; x2++)
+		for (x2 = x1 + 1; x2 <= 99; x2++)
 		{
 			putchar((x1 / 10) + '0');
 			putchar((x1 % 10) + '0');
