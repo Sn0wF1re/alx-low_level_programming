@@ -5,8 +5,12 @@
   */
 void something(void)
 {
-	_putchar('w');
-	_putchar('i');
-	_putchar('n');
+	char *ch = "Win";
+
+	while (*ch)
+	{
+		_putchar(*ch);
+		ch++;
+	}
 	_putchar('\n');
 }
