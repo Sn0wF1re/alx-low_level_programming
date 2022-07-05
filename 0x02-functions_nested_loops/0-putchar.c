@@ -5,7 +5,7 @@
   */
 int main(void)
 {
-	char *ch = "Win";
+	char *ch = "_putchar";
 
 	while (*ch)
 	{
