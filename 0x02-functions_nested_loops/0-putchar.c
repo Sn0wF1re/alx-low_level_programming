@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-  *something - print something
+  *main - print something
   *Return: 0
   */
 int main(void)
