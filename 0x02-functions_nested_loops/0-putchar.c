@@ -1,9 +1,9 @@
 #include "main.h"
 /**
   *something - print something
-  *Return: nothing
+  *Return: 0
   */
-void something(void)
+int main(void)
 {
 	char *ch = "Win";
 
@@ -13,4 +13,5 @@ void something(void)
 		ch++;
 	}
 	_putchar('\n');
+	return (0);
 }
