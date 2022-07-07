@@ -1,22 +1,19 @@
 #include "main.h"
 /**
  *_isupper - check whether upper case or not
- *@c: letter to be checked
+ *@c: integer to be checked
  *
  *Return: 1 if upper, 0 if otherwise
  */
 int _isupper(int c)
 {
-	char y;
-	int upper = 0;
-
-	for (y = 'A'; y <= 'Z'; y++)
+	if (c >= 65 && c <= 90)
 	{
-		if (c == y)
-		{
-			upper = 1;
-			break;
-		}
+		return (1);
 	}
-	return (upper);
+	else
+	{
+		return (0);
+	}
 }
+
