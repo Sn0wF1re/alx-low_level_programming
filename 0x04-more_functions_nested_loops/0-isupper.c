@@ -7,12 +7,16 @@
  */
 int _isupper(int c)
 {
-	if (c >= 'A' && c <= 'Z')
+	char y;
+	int upper = 0;
+
+	for (y = 'A'; y <= 'Z'; y++)
 	{
-		return (1);
+		if (c == y)
+		{
+			upper = 1;
+			break;
+		}
 	}
-	else
-	{
-		return (0);
-	}
+	return (upper);
 }
