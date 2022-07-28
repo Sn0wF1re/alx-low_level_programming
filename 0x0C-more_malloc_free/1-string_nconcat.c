@@ -26,7 +26,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		return (NULL);
 	}
-	for (x = 0; s1[x] != 0; x++)
+	for (x = 0; s1[x] != '\0'; x++)
 	{
 		strconcat[x] = s1[x];
 	}
@@ -35,5 +35,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		strconcat[x] = s2[y];
 		x++;
 	}
+	strconcat[x] = '\0';
 	return (strconcat);
 }
